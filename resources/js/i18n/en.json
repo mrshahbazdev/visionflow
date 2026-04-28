@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "VisionFlow",
+    "tagline": "Value-to-Mission OS"
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "login": "Log in",
+    "register": "Get Started",
+    "dashboard": "Dashboard",
+    "language": "Language"
+  },
+  "landing": {
+    "hero": {
+      "title": "Turn Your Values Into",
+      "titleHighlight": "Actionable Missions",
+      "subtitle": "VisionFlow is the living operating system that connects your organization's values, principles, goals, and vision into a traceable, collaborative mission pipeline.",
+      "cta": "Start Building Your Vision",
+      "ctaSecondary": "See How It Works"
+    },
+    "trustedBy": "Designed for forward-thinking organizations",
+    "features": {
+      "sectionTitle": "Everything You Need to",
+      "sectionTitleHighlight": "Align Your Organization",
+      "sectionSubtitle": "Six powerful modules that work together to transform abstract values into concrete, trackable missions.",
+      "values": {
+        "title": "Values Workshop",
+        "description": "Collaboratively create, cluster, and prioritize your organization's core values with anonymous input, voting, and version history."
+      },
+      "principles": {
+        "title": "Principles Builder",
+        "description": "Transform approved values into actionable principles using structured templates with real-time consensus tracking."
+      },
+      "goals": {
+        "title": "Strategic Goals Canvas",
+        "description": "Define long-term directional goals categorized by Market, Impact, and Organization with full traceability to values."
+      },
+      "vision": {
+        "title": "Vision Co-Creation",
+        "description": "Collaboratively draft, iterate, and approve your organization's vision statement with emotional resonance voting."
+      },
+      "missions": {
+        "title": "Mission Generator",
+        "description": "Derive multiple active missions from your approved vision with ownership assignment and automated review cadence."
+      },
+      "visibility": {
+        "title": "Visibility & Embedding",
+        "description": "Embed your purpose everywhere — homepage widgets, project linking, decision logs, and an always-on vision dashboard."
+      }
+    },
+    "traceability": {
+      "sectionTitle": "Full Traceability.",
+      "sectionTitleHighlight": "Zero Gaps.",
+      "sectionSubtitle": "Every decision, project, and mission traces back to your core values. Nothing gets lost.",
+      "values": "Core Values",
+      "principles": "Principles",
+      "goals": "Strategic Goals",
+      "vision": "Vision",
+      "missions": "Missions",
+      "projects": "Projects & Decisions"
+    },
+    "differentiators": {
+      "sectionTitle": "Not Just Documentation.",
+      "sectionTitleHighlight": "A Living OS.",
+      "living": {
+        "title": "Living, Not Static",
+        "description": "Your purpose evolves with your organization. Version history, real-time collaboration, and review cadences keep everything alive."
+      },
+      "traceable": {
+        "title": "Fully Traceable",
+        "description": "From values to missions to projects — every link is preserved. Know exactly why you're doing what you're doing."
+      },
+      "collaborative": {
+        "title": "Built for Everyone",
+        "description": "Designed for shareholders, leadership, and teams to work together. Role-based access ensures the right people drive the right decisions."
+      }
+    },
+    "cta": {
+      "title": "Ready to Align Your Organization?",
+      "subtitle": "Start with your values. End with clarity.",
+      "button": "Get Started Free"
+    },
+    "footer": {
+      "description": "The operating system for organizational purpose. From values to missions — fully traceable, always alive.",
+      "product": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "roadmap": "Roadmap",
+      "company": "Company",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "rights": "All rights reserved."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to continue building your organization's purpose.",
+      "email": "Email Address",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "register": "Create one now"
+    },
+    "register": {
+      "title": "Create Your Account",
+      "subtitle": "Join VisionFlow and start aligning your organization.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in"
+    },
+    "forgot": {
+      "title": "Reset Your Password",
+      "subtitle": "Enter your email and we'll send you a reset link.",
+      "email": "Email Address",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to login"
+    }
+  }
+}

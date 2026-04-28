@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "VisionFlow",
+    "tagline": "Werte-zu-Mission OS"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
+    "login": "Anmelden",
+    "register": "Jetzt starten",
+    "dashboard": "Dashboard",
+    "language": "Sprache"
+  },
+  "landing": {
+    "hero": {
+      "title": "Verwandeln Sie Ihre Werte in",
+      "titleHighlight": "umsetzbare Missionen",
+      "subtitle": "VisionFlow ist das lebendige Betriebssystem, das die Werte, Prinzipien, Ziele und Vision Ihrer Organisation in eine nachvollziehbare, kollaborative Missions-Pipeline verbindet.",
+      "cta": "Starten Sie Ihre Vision",
+      "ctaSecondary": "So funktioniert's"
+    },
+    "trustedBy": "Entwickelt für zukunftsorientierte Organisationen",
+    "features": {
+      "sectionTitle": "Alles, was Sie brauchen, um",
+      "sectionTitleHighlight": "Ihre Organisation auszurichten",
+      "sectionSubtitle": "Sechs leistungsstarke Module, die zusammenarbeiten, um abstrakte Werte in konkrete, nachverfolgbare Missionen zu verwandeln.",
+      "values": {
+        "title": "Werte-Workshop",
+        "description": "Erstellen, gruppieren und priorisieren Sie gemeinsam die Kernwerte Ihrer Organisation mit anonymer Eingabe, Abstimmung und Versionshistorie."
+      },
+      "principles": {
+        "title": "Prinzipien-Builder",
+        "description": "Wandeln Sie genehmigte Werte in umsetzbare Prinzipien um, mit strukturierten Vorlagen und Echtzeit-Konsenserfassung."
+      },
+      "goals": {
+        "title": "Strategische Ziele",
+        "description": "Definieren Sie langfristige Richtungsziele, kategorisiert nach Markt, Wirkung und Organisation, mit voller Rückverfolgbarkeit zu den Werten."
+      },
+      "vision": {
+        "title": "Vision-Mitgestaltung",
+        "description": "Entwerfen, iterieren und genehmigen Sie gemeinsam das Leitbild Ihrer Organisation mit emotionaler Resonanzabstimmung."
+      },
+      "missions": {
+        "title": "Missions-Generator",
+        "description": "Leiten Sie mehrere aktive Missionen aus Ihrer genehmigten Vision ab, mit Eigentümerzuweisung und automatisiertem Überprüfungsrhythmus."
+      },
+      "visibility": {
+        "title": "Sichtbarkeit & Einbettung",
+        "description": "Betten Sie Ihren Zweck überall ein — Homepage-Widgets, Projektverknüpfung, Entscheidungsprotokolle und ein stets aktives Vision-Dashboard."
+      }
+    },
+    "traceability": {
+      "sectionTitle": "Volle Rückverfolgbarkeit.",
+      "sectionTitleHighlight": "Keine Lücken.",
+      "sectionSubtitle": "Jede Entscheidung, jedes Projekt und jede Mission lässt sich auf Ihre Kernwerte zurückführen. Nichts geht verloren.",
+      "values": "Kernwerte",
+      "principles": "Prinzipien",
+      "goals": "Strategische Ziele",
+      "vision": "Vision",
+      "missions": "Missionen",
+      "projects": "Projekte & Entscheidungen"
+    },
+    "differentiators": {
+      "sectionTitle": "Nicht nur Dokumentation.",
+      "sectionTitleHighlight": "Ein lebendiges OS.",
+      "living": {
+        "title": "Lebendig, nicht statisch",
+        "description": "Ihr Zweck entwickelt sich mit Ihrer Organisation. Versionshistorie, Echtzeit-Zusammenarbeit und Überprüfungsrhythmen halten alles am Leben."
+      },
+      "traceable": {
+        "title": "Vollständig nachverfolgbar",
+        "description": "Von Werten über Missionen bis zu Projekten — jede Verbindung bleibt erhalten. Wissen Sie genau, warum Sie tun, was Sie tun."
+      },
+      "collaborative": {
+        "title": "Für alle gebaut",
+        "description": "Entwickelt für Anteilseigner, Führungskräfte und Teams zur Zusammenarbeit. Rollenbasierter Zugriff stellt sicher, dass die richtigen Personen die richtigen Entscheidungen treffen."
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihre Organisation auszurichten?",
+      "subtitle": "Beginnen Sie mit Ihren Werten. Enden Sie mit Klarheit.",
+      "button": "Kostenlos starten"
+    },
+    "footer": {
+      "description": "Das Betriebssystem für den organisatorischen Zweck. Von Werten zu Missionen — vollständig nachverfolgbar, immer lebendig.",
+      "product": "Produkt",
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "roadmap": "Roadmap",
+      "company": "Unternehmen",
+      "about": "Über uns",
+      "blog": "Blog",
+      "careers": "Karriere",
+      "legal": "Rechtliches",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "rights": "Alle Rechte vorbehalten."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melden Sie sich an, um den Zweck Ihrer Organisation weiterzuentwickeln.",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "remember": "Angemeldet bleiben",
+      "forgot": "Passwort vergessen?",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "register": "Jetzt erstellen"
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Treten Sie VisionFlow bei und beginnen Sie, Ihre Organisation auszurichten.",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "submit": "Konto erstellen",
+      "hasAccount": "Bereits ein Konto?",
+      "login": "Anmelden"
+    },
+    "forgot": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Geben Sie Ihre E-Mail ein und wir senden Ihnen einen Link zum Zurücksetzen.",
+      "email": "E-Mail-Adresse",
+      "submit": "Link senden",
+      "backToLogin": "Zurück zur Anmeldung"
+    }
+  }
+}
