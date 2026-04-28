@@ -1,0 +1,1 @@
+import{N as e,W as t,b as n,j as r,w as i}from"./index.esm-CikbVe-9.js";var a={class:`block text-sm font-medium text-gray-700`},o={key:0},s={key:1},c=i({__name:`InputLabel`,props:{value:{}},setup(i){return(c,l)=>(r(),n(`label`,a,[i.value?(r(),n(`span`,o,t(i.value),1)):(r(),n(`span`,s,[e(c.$slots,`default`)]))]))}});export{c as t};
