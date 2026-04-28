@@ -129,7 +129,7 @@
       "title": "Create Principle",
       "selectValue": "Select Value",
       "statement": "Principle Statement",
-      "statementPlaceholder": "We believe in {value}, therefore we...",
+      "statementPlaceholder": "We believe in {'{value}'}, therefore we...",
       "template": "Use Template"
     },
     "edit": {
@@ -358,7 +358,7 @@
     "inviteMember": "Invite Team Member",
     "inviteSubtitle": "Send an invitation to join your organization.",
     "email": "Email Address",
-    "emailPlaceholder": "colleague@company.com",
+    "emailPlaceholder": "colleague{'@'}company.com",
     "role": "Role",
     "personalMessage": "Personal Message",
     "personalMessagePlaceholder": "Add a personal note to the invitation...",
