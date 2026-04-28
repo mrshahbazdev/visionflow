@@ -7,46 +7,296 @@
     "features": "Funktionen",
     "howItWorks": "So funktioniert's",
     "login": "Anmelden",
-    "register": "Jetzt starten",
+    "register": "Loslegen",
     "dashboard": "Dashboard",
     "language": "Sprache"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "values": "Werte-Workshop",
+    "principles": "Prinzipien-Builder",
+    "goals": "Strategische Ziele",
+    "visions": "Vision-Erstellung",
+    "missions": "Missions-Generator",
+    "projects": "Projekte",
+    "decisions": "Entscheidungslog",
+    "settings": "Einstellungen",
+    "profile": "Profil",
+    "orgSettings": "Organisation"
+  },
+  "common": {
+    "create": "Erstellen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "back": "Zurück",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "noResults": "Keine Ergebnisse gefunden",
+    "loading": "Laden...",
+    "confirmDelete": "Möchten Sie dies wirklich löschen?",
+    "status": "Status",
+    "actions": "Aktionen",
+    "createdAt": "Erstellt",
+    "updatedAt": "Aktualisiert",
+    "viewAll": "Alle anzeigen",
+    "addNew": "Neu hinzufügen",
+    "draft": "Entwurf",
+    "proposed": "Vorgeschlagen",
+    "approved": "Genehmigt",
+    "archived": "Archiviert",
+    "active": "Aktiv",
+    "paused": "Pausiert",
+    "completed": "Abgeschlossen",
+    "title": "Titel",
+    "description": "Beschreibung",
+    "submit": "Absenden"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück",
+    "overview": "Organisationsübersicht",
+    "noOrg": "Sie gehören noch keiner Organisation an.",
+    "createOrg": "Organisation erstellen",
+    "stats": {
+      "values": "Kernwerte",
+      "principles": "Prinzipien",
+      "goals": "Strategische Ziele",
+      "visions": "Visionen",
+      "missions": "Aktive Missionen",
+      "projects": "Projekte",
+      "decisions": "Protokollierte Entscheidungen"
+    },
+    "quickActions": "Schnellaktionen",
+    "recentActivity": "Letzte Aktivitäten",
+    "traceabilityChain": "Rückverfolgungskette"
+  },
+  "organization": {
+    "create": {
+      "title": "Organisation erstellen",
+      "subtitle": "Richten Sie Ihre Organisation ein, um Ihre Werte-zu-Mission-Pipeline aufzubauen.",
+      "name": "Organisationsname",
+      "namePlaceholder": "z.B. Acme GmbH",
+      "description": "Beschreibung",
+      "descriptionPlaceholder": "Was macht Ihre Organisation?",
+      "submit": "Organisation erstellen"
+    },
+    "settings": {
+      "title": "Organisationseinstellungen",
+      "general": "Allgemein",
+      "members": "Mitglieder",
+      "roles": "Rollen & Berechtigungen"
+    }
+  },
+  "values": {
+    "title": "Werte-Workshop",
+    "subtitle": "Definieren und priorisieren Sie die Kernwerte Ihrer Organisation.",
+    "empty": "Noch keine Werte definiert. Beginnen Sie mit der Erstellung Ihres ersten Kernwerts.",
+    "create": {
+      "title": "Wert erstellen",
+      "titlePlaceholder": "z.B. Integrität",
+      "descriptionPlaceholder": "Beschreiben Sie, was dieser Wert für Ihre Organisation bedeutet..."
+    },
+    "edit": {
+      "title": "Wert bearbeiten"
+    },
+    "show": {
+      "cards": "Wertkarten",
+      "votes": "Abstimmungen",
+      "history": "Versionshistorie",
+      "principles": "Verknüpfte Prinzipien",
+      "approve": "Wert genehmigen",
+      "addCard": "Karte hinzufügen"
+    },
+    "status": {
+      "draft": "Entwurf",
+      "proposed": "Vorgeschlagen",
+      "approved": "Genehmigt",
+      "archived": "Archiviert"
+    },
+    "cards": "Karten",
+    "votes": "Stimmen",
+    "linkedPrinciples": "verknüpfte Prinzipien"
+  },
+  "principles": {
+    "title": "Prinzipien-Builder",
+    "subtitle": "Verwandeln Sie Werte in umsetzbare Prinzipien mit Konsens-Tracking.",
+    "empty": "Noch keine Prinzipien definiert. Erstellen Sie Prinzipien aus Ihren genehmigten Werten.",
+    "create": {
+      "title": "Prinzip erstellen",
+      "selectValue": "Wert auswählen",
+      "statement": "Prinzip-Aussage",
+      "statementPlaceholder": "Wir glauben an {value}, deshalb...",
+      "template": "Vorlage verwenden"
+    },
+    "edit": {
+      "title": "Prinzip bearbeiten"
+    },
+    "show": {
+      "linkedValue": "Verknüpfter Wert",
+      "consensus": "Konsens",
+      "alignmentScore": "Ausrichtungswert",
+      "vote": "Ihre Stimme abgeben"
+    },
+    "consensusVotes": "Konsensstimmen"
+  },
+  "goals": {
+    "title": "Strategische Ziele",
+    "subtitle": "Definieren Sie langfristige Richtungsziele mit vollständiger Rückverfolgbarkeit.",
+    "empty": "Noch keine strategischen Ziele. Definieren Sie Ziele, die mit Ihren Werten und Prinzipien verknüpft sind.",
+    "categories": {
+      "market": "Markt",
+      "impact": "Wirkung",
+      "organization": "Organisation"
+    },
+    "create": {
+      "title": "Strategisches Ziel erstellen",
+      "category": "Kategorie",
+      "timeHorizon": "Zeithorizont",
+      "timeHorizonPlaceholder": "z.B. 3-5 Jahre",
+      "linkValues": "Mit Werten verknüpfen",
+      "linkPrinciples": "Mit Prinzipien verknüpfen"
+    },
+    "edit": {
+      "title": "Strategisches Ziel bearbeiten"
+    },
+    "show": {
+      "linkedValues": "Verknüpfte Werte",
+      "linkedPrinciples": "Verknüpfte Prinzipien",
+      "timeHorizon": "Zeithorizont"
+    }
+  },
+  "visions": {
+    "title": "Vision-Erstellung",
+    "subtitle": "Erstellen und genehmigen Sie gemeinsam die Vision Ihrer Organisation.",
+    "empty": "Noch keine Vision-Aussagen. Beginnen Sie mit der Erstellung der Vision Ihrer Organisation.",
+    "current": "Aktuelle Vision",
+    "create": {
+      "title": "Vision erstellen",
+      "content": "Vision-Aussage",
+      "contentPlaceholder": "Schreiben Sie die Vision Ihrer Organisation..."
+    },
+    "edit": {
+      "title": "Vision bearbeiten"
+    },
+    "show": {
+      "drafts": "Entwürfe",
+      "approvals": "Genehmigungen",
+      "missions": "Abgeleitete Missionen",
+      "setCurrent": "Als aktuelle Vision festlegen",
+      "addDraft": "Entwurf hinzufügen"
+    },
+    "status": {
+      "drafting": "Entwurf",
+      "reviewing": "Überprüfung",
+      "approved": "Genehmigt"
+    },
+    "drafts": "Entwürfe",
+    "approvals": "Genehmigungen",
+    "missions": "Missionen"
+  },
+  "missions": {
+    "title": "Missions-Generator",
+    "subtitle": "Leiten Sie umsetzbare Missionen aus Ihrer genehmigten Vision ab.",
+    "empty": "Noch keine Missionen. Erstellen Sie Missionen aus Ihrer genehmigten Vision.",
+    "create": {
+      "title": "Mission erstellen",
+      "selectVision": "Vision auswählen",
+      "owner": "Missionsverantwortlicher",
+      "selectOwner": "Verantwortlichen auswählen",
+      "reviewCadence": "Überprüfungszyklus",
+      "cadences": {
+        "monthly": "Monatlich",
+        "quarterly": "Quartalsweise",
+        "biannually": "Halbjährlich",
+        "annually": "Jährlich"
+      }
+    },
+    "edit": {
+      "title": "Mission bearbeiten"
+    },
+    "show": {
+      "vision": "Übergeordnete Vision",
+      "owner": "Verantwortlicher",
+      "reviewCadence": "Überprüfungszyklus",
+      "nextReview": "Nächste Überprüfung",
+      "reviews": "Überprüfungen",
+      "projects": "Verknüpfte Projekte"
+    },
+    "reviews": "Überprüfungen",
+    "projects": "Projekte"
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Verfolgen Sie Projekte, die mit Ihren aktiven Missionen verknüpft sind.",
+    "empty": "Noch keine Projekte. Verknüpfen Sie Projekte mit Ihren Missionen.",
+    "create": {
+      "title": "Projekt erstellen",
+      "selectMission": "Mit Mission verknüpfen",
+      "name": "Projektname",
+      "namePlaceholder": "z.B. Website-Redesign"
+    },
+    "show": {
+      "mission": "Verknüpfte Mission",
+      "vision": "Rückverfolgbare Vision"
+    }
+  },
+  "decisions": {
+    "title": "Entscheidungslog",
+    "subtitle": "Dokumentieren Sie Entscheidungen und verknüpfen Sie diese mit Werten und Missionen.",
+    "empty": "Noch keine Entscheidungen protokolliert. Beginnen Sie mit der Dokumentation wertorientierter Entscheidungen.",
+    "create": {
+      "title": "Entscheidung protokollieren",
+      "decision": "Entscheidung",
+      "decisionPlaceholder": "Beschreiben Sie die getroffene Entscheidung...",
+      "supportingValue": "Unterstützender Wert",
+      "supportingMission": "Unterstützende Mission",
+      "selectOptional": "Auswählen (optional)"
+    },
+    "show": {
+      "decision": "Entscheidung",
+      "madeBy": "Entschieden von",
+      "supportingValue": "Unterstützender Wert",
+      "supportingMission": "Unterstützende Mission"
+    }
   },
   "landing": {
     "hero": {
       "title": "Verwandeln Sie Ihre Werte in",
-      "titleHighlight": "umsetzbare Missionen",
+      "titleHighlight": "Umsetzbare Missionen",
       "subtitle": "VisionFlow ist das lebendige Betriebssystem, das die Werte, Prinzipien, Ziele und Vision Ihrer Organisation in eine nachvollziehbare, kollaborative Missions-Pipeline verbindet.",
-      "cta": "Starten Sie Ihre Vision",
+      "cta": "Vision aufbauen",
       "ctaSecondary": "So funktioniert's"
     },
     "trustedBy": "Entwickelt für zukunftsorientierte Organisationen",
     "features": {
-      "sectionTitle": "Alles, was Sie brauchen, um",
+      "sectionTitle": "Alles was Sie brauchen, um",
       "sectionTitleHighlight": "Ihre Organisation auszurichten",
       "sectionSubtitle": "Sechs leistungsstarke Module, die zusammenarbeiten, um abstrakte Werte in konkrete, nachverfolgbare Missionen zu verwandeln.",
       "values": {
         "title": "Werte-Workshop",
-        "description": "Erstellen, gruppieren und priorisieren Sie gemeinsam die Kernwerte Ihrer Organisation mit anonymer Eingabe, Abstimmung und Versionshistorie."
+        "description": "Erstellen, clustern und priorisieren Sie gemeinsam die Kernwerte Ihrer Organisation mit anonymer Eingabe, Abstimmung und Versionshistorie."
       },
       "principles": {
         "title": "Prinzipien-Builder",
-        "description": "Wandeln Sie genehmigte Werte in umsetzbare Prinzipien um, mit strukturierten Vorlagen und Echtzeit-Konsenserfassung."
+        "description": "Verwandeln Sie genehmigte Werte in umsetzbare Prinzipien mit strukturierten Vorlagen und Echtzeit-Konsenserfassung."
       },
       "goals": {
         "title": "Strategische Ziele",
-        "description": "Definieren Sie langfristige Richtungsziele, kategorisiert nach Markt, Wirkung und Organisation, mit voller Rückverfolgbarkeit zu den Werten."
+        "description": "Definieren Sie langfristige Richtungsziele, kategorisiert nach Markt, Wirkung und Organisation, mit vollständiger Rückverfolgbarkeit zu Werten."
       },
       "vision": {
-        "title": "Vision-Mitgestaltung",
-        "description": "Entwerfen, iterieren und genehmigen Sie gemeinsam das Leitbild Ihrer Organisation mit emotionaler Resonanzabstimmung."
+        "title": "Vision-Erstellung",
+        "description": "Entwerfen, iterieren und genehmigen Sie gemeinsam die Vision Ihrer Organisation mit emotionaler Resonanzabstimmung."
       },
       "missions": {
         "title": "Missions-Generator",
-        "description": "Leiten Sie mehrere aktive Missionen aus Ihrer genehmigten Vision ab, mit Eigentümerzuweisung und automatisiertem Überprüfungsrhythmus."
+        "description": "Leiten Sie mehrere aktive Missionen aus Ihrer genehmigten Vision ab, mit Verantwortungszuweisung und automatisiertem Überprüfungszyklus."
       },
       "visibility": {
         "title": "Sichtbarkeit & Einbettung",
-        "description": "Betten Sie Ihren Zweck überall ein — Homepage-Widgets, Projektverknüpfung, Entscheidungsprotokolle und ein stets aktives Vision-Dashboard."
+        "description": "Verankern Sie Ihren Zweck überall — Homepage-Widgets, Projektverknüpfung, Entscheidungslogs und ein stets aktives Vision-Dashboard."
       }
     },
     "traceability": {
@@ -65,15 +315,15 @@
       "sectionTitleHighlight": "Ein lebendiges OS.",
       "living": {
         "title": "Lebendig, nicht statisch",
-        "description": "Ihr Zweck entwickelt sich mit Ihrer Organisation. Versionshistorie, Echtzeit-Zusammenarbeit und Überprüfungsrhythmen halten alles am Leben."
+        "description": "Ihr Zweck entwickelt sich mit Ihrer Organisation. Versionshistorie, Echtzeit-Zusammenarbeit und Überprüfungszyklen halten alles lebendig."
       },
       "traceable": {
-        "title": "Vollständig nachverfolgbar",
-        "description": "Von Werten über Missionen bis zu Projekten — jede Verbindung bleibt erhalten. Wissen Sie genau, warum Sie tun, was Sie tun."
+        "title": "Vollständig rückverfolgbar",
+        "description": "Von Werten zu Missionen zu Projekten — jede Verbindung bleibt erhalten. Wissen Sie genau, warum Sie tun, was Sie tun."
       },
       "collaborative": {
         "title": "Für alle gebaut",
-        "description": "Entwickelt für Anteilseigner, Führungskräfte und Teams zur Zusammenarbeit. Rollenbasierter Zugriff stellt sicher, dass die richtigen Personen die richtigen Entscheidungen treffen."
+        "description": "Entwickelt für Gesellschafter, Führungskräfte und Teams. Rollenbasierter Zugang stellt sicher, dass die richtigen Personen die richtigen Entscheidungen treffen."
       }
     },
     "cta": {
@@ -82,7 +332,7 @@
       "button": "Kostenlos starten"
     },
     "footer": {
-      "description": "Das Betriebssystem für den organisatorischen Zweck. Von Werten zu Missionen — vollständig nachverfolgbar, immer lebendig.",
+      "description": "Das Betriebssystem für organisatorischen Zweck. Von Werten zu Missionen — vollständig rückverfolgbar, immer lebendig.",
       "product": "Produkt",
       "features": "Funktionen",
       "pricing": "Preise",
@@ -111,7 +361,7 @@
     },
     "register": {
       "title": "Konto erstellen",
-      "subtitle": "Treten Sie VisionFlow bei und beginnen Sie, Ihre Organisation auszurichten.",
+      "subtitle": "Treten Sie VisionFlow bei und richten Sie Ihre Organisation aus.",
       "name": "Vollständiger Name",
       "email": "E-Mail-Adresse",
       "password": "Passwort",
@@ -122,7 +372,7 @@
     },
     "forgot": {
       "title": "Passwort zurücksetzen",
-      "subtitle": "Geben Sie Ihre E-Mail ein und wir senden Ihnen einen Link zum Zurücksetzen.",
+      "subtitle": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen.",
       "email": "E-Mail-Adresse",
       "submit": "Link senden",
       "backToLogin": "Zurück zur Anmeldung"
