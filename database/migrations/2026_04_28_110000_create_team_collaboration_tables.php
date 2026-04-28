@@ -55,6 +55,7 @@ return new class extends Migration
                   ->constrained()
                   ->cascadeOnDelete();
             $table->foreignUlid('assigned_by')
+                  ->nullable()
                   ->constrained('users')
                   ->nullOnDelete();
             $table->foreignUlid('assigned_to')
