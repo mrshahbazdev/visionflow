@@ -20,6 +20,8 @@
     "missions": "Missions-Generator",
     "projects": "Projekte",
     "decisions": "Entscheidungslog",
+    "team": "Team",
+    "assignments": "Arbeitszuweisungen",
     "settings": "Einstellungen",
     "profile": "Profil",
     "orgSettings": "Organisation"
@@ -345,6 +347,86 @@
       "privacy": "Datenschutz",
       "terms": "Nutzungsbedingungen",
       "rights": "Alle Rechte vorbehalten."
+    }
+  },
+  "team": {
+    "title": "Team-Verwaltung",
+    "subtitle": "Verwalten Sie die Teammitglieder, Rollen und Arbeitszuweisungen Ihrer Organisation.",
+    "members": "Mitglieder",
+    "noMembers": "Noch keine Teammitglieder.",
+    "invite": "Mitglied einladen",
+    "inviteMember": "Teammitglied einladen",
+    "inviteSubtitle": "Senden Sie eine Einladung, Ihrer Organisation beizutreten.",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "kollege@firma.de",
+    "role": "Rolle",
+    "personalMessage": "Persönliche Nachricht",
+    "personalMessagePlaceholder": "Fügen Sie eine persönliche Notiz zur Einladung hinzu...",
+    "sendInvite": "Einladung senden",
+    "changeRole": "Rolle ändern",
+    "changeRoleTitle": "Mitgliedsrolle ändern",
+    "changeRoleFor": "Rolle ändern für",
+    "newRole": "Neue Rolle",
+    "confirmRemove": "Möchten Sie dieses Mitglied wirklich aus der Organisation entfernen?",
+    "confirmRevoke": "Möchten Sie diese Einladung wirklich widerrufen?",
+    "pendingInvitations": "Ausstehende Einladungen",
+    "invitedBy": "Eingeladen von",
+    "expiresAt": "Läuft ab",
+    "revoke": "Widerrufen",
+    "roles": {
+      "owner": "Inhaber",
+      "admin": "Administrator",
+      "leader": "Leiter",
+      "member": "Mitglied",
+      "viewer": "Betrachter"
+    },
+    "roleDescriptions": {
+      "owner": "Volle Kontrolle über die Organisation. Kann alle Einstellungen und Mitglieder verwalten.",
+      "admin": "Kann Mitglieder, Einladungen und Inhalte verwalten. Kann die Organisation nicht löschen.",
+      "leader": "Kann Inhalte erstellen und bearbeiten, Arbeit an Teammitglieder zuweisen.",
+      "member": "Kann Inhalte innerhalb der Organisation erstellen und bearbeiten.",
+      "viewer": "Nur-Lese-Zugriff auf Organisationsinhalte."
+    },
+    "acceptInvitation": {
+      "title": "Einladung annehmen",
+      "subtitle": "Sie wurden eingeladen, einer Organisation auf VisionFlow beizutreten.",
+      "organization": "Organisation",
+      "invitedBy": "Eingeladen von",
+      "accept": "Annehmen & Beitreten",
+      "loginRequired": "Bitte melden Sie sich an oder erstellen Sie ein Konto, um diese Einladung anzunehmen."
+    },
+    "assignments": {
+      "title": "Arbeitszuweisungen",
+      "subtitle": "Weisen Sie Teammitgliedern Missionen und Projekte mit RACI-Rollen zu.",
+      "assign": "Arbeit zuweisen",
+      "assignSubtitle": "Weisen Sie einem Teammitglied eine Mission oder ein Projekt zu.",
+      "assignTo": "Zuweisen an",
+      "selectMember": "Teammitglied auswählen",
+      "type": "Typ",
+      "mission": "Mission",
+      "project": "Projekt",
+      "item": "Element",
+      "selectItem": "Element auswählen",
+      "raciRole": "RACI-Rolle",
+      "raci": {
+        "responsible": "Verantwortlich — Führt die Arbeit aus",
+        "accountable": "Rechenschaftspflichtig — Verantwortet das Ergebnis",
+        "consulted": "Konsultiert — Gibt Input",
+        "informed": "Informiert — Wird auf dem Laufenden gehalten"
+      },
+      "notes": "Notizen",
+      "notesPlaceholder": "Optionale Notizen zu dieser Zuweisung...",
+      "dueAt": "Fälligkeitsdatum",
+      "by": "von",
+      "assignedTo": "Zugewiesen an",
+      "markComplete": "Abschließen",
+      "confirmDelete": "Möchten Sie diese Zuweisung wirklich löschen?",
+      "empty": "Noch keine Arbeitszuweisungen. Weisen Sie Teammitgliedern Missionen oder Projekte zu.",
+      "unknownItem": "Unbekanntes Element",
+      "statuses": {
+        "active": "Aktiv",
+        "completed": "Abgeschlossen"
+      }
     }
   },
   "auth": {

@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
+use App\Enums\TeamRole;
 use App\Models\Organization;
+use App\Models\OrganizationMember;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -32,6 +34,13 @@ class OrganizationController extends Controller
         ]);
 
         $request->user()->update(['organization_id' => $org->id]);
+
+        OrganizationMember::create([
+            'organization_id' => $org->id,
+            'user_id' => $request->user()->id,
+            'role' => TeamRole::Owner->value,
+            'joined_at' => now(),
+        ]);
 
         return redirect()->route('dashboard');
     }

@@ -8,6 +8,9 @@ use App\Http\Controllers\Missions\MissionController;
 use App\Http\Controllers\OrganizationController;
 use App\Http\Controllers\Principles\PrincipleController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Team\TeamInvitationController;
+use App\Http\Controllers\Team\TeamMemberController;
+use App\Http\Controllers\Team\WorkAssignmentController;
 use App\Http\Controllers\Values\ValueController;
 use App\Http\Controllers\Visibility\DecisionLogController;
 use App\Http\Controllers\Visibility\ProjectController;
@@ -51,10 +54,29 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::resource('projects', ProjectController::class);
     Route::resource('decisions', DecisionLogController::class)->only(['index', 'create', 'store', 'show']);
 
+    // Team Collaboration
+    Route::get('/team', [TeamMemberController::class, 'index'])->name('team.index');
+    Route::patch('/team/members/{member}/role', [TeamMemberController::class, 'updateRole'])->name('team.members.update-role');
+    Route::delete('/team/members/{member}', [TeamMemberController::class, 'destroy'])->name('team.members.destroy');
+
+    // Team Invitations
+    Route::post('/team/invitations', [TeamInvitationController::class, 'store'])->name('team.invitations.store');
+    Route::delete('/team/invitations/{invitation}', [TeamInvitationController::class, 'revoke'])->name('team.invitations.revoke');
+
+    // Work Assignments
+    Route::get('/team/assignments', [WorkAssignmentController::class, 'index'])->name('team.assignments.index');
+    Route::post('/team/assignments', [WorkAssignmentController::class, 'store'])->name('team.assignments.store');
+    Route::patch('/team/assignments/{assignment}/complete', [WorkAssignmentController::class, 'complete'])->name('team.assignments.complete');
+    Route::delete('/team/assignments/{assignment}', [WorkAssignmentController::class, 'destroy'])->name('team.assignments.destroy');
+
     // Profile
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+// Invitation acceptance (can be accessed by guest or authenticated user)
+Route::get('/invitations/{token}/accept', [TeamInvitationController::class, 'showAccept'])->name('team.invitations.show-accept');
+Route::post('/invitations/{token}/accept', [TeamInvitationController::class, 'accept'])->name('team.invitations.accept')->middleware(['auth', 'verified']);
 
 require __DIR__.'/auth.php';
