@@ -1,0 +1,1 @@
+import{L as e,W as t,_ as n,b as r,d as i,j as a,w as o}from"./index.esm-CikbVe-9.js";var s={class:`text-sm text-red-600`},c=o({__name:`InputError`,props:{message:{}},setup(o){return(c,l)=>e((a(),r(`div`,null,[n(`p`,s,t(o.message),1)],512)),[[i,o.message]])}});export{c as t};
