@@ -129,7 +129,7 @@
       "title": "Prinzip erstellen",
       "selectValue": "Wert auswählen",
       "statement": "Prinzip-Aussage",
-      "statementPlaceholder": "Wir glauben an {value}, deshalb...",
+      "statementPlaceholder": "Wir glauben an {'{value}'}, deshalb...",
       "template": "Vorlage verwenden"
     },
     "edit": {
@@ -358,7 +358,7 @@
     "inviteMember": "Teammitglied einladen",
     "inviteSubtitle": "Senden Sie eine Einladung, Ihrer Organisation beizutreten.",
     "email": "E-Mail-Adresse",
-    "emailPlaceholder": "kollege@firma.de",
+    "emailPlaceholder": "kollege{'@'}firma.de",
     "role": "Rolle",
     "personalMessage": "Persönliche Nachricht",
     "personalMessagePlaceholder": "Fügen Sie eine persönliche Notiz zur Einladung hinzu...",
