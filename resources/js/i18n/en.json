@@ -20,6 +20,8 @@
     "missions": "Mission Generator",
     "projects": "Projects",
     "decisions": "Decision Log",
+    "team": "Team",
+    "assignments": "Work Assignments",
     "settings": "Settings",
     "profile": "Profile",
     "orgSettings": "Organization"
@@ -345,6 +347,86 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "rights": "All rights reserved."
+    }
+  },
+  "team": {
+    "title": "Team Management",
+    "subtitle": "Manage your organization's team members, roles, and work assignments.",
+    "members": "Members",
+    "noMembers": "No team members yet.",
+    "invite": "Invite Member",
+    "inviteMember": "Invite Team Member",
+    "inviteSubtitle": "Send an invitation to join your organization.",
+    "email": "Email Address",
+    "emailPlaceholder": "colleague@company.com",
+    "role": "Role",
+    "personalMessage": "Personal Message",
+    "personalMessagePlaceholder": "Add a personal note to the invitation...",
+    "sendInvite": "Send Invitation",
+    "changeRole": "Change Role",
+    "changeRoleTitle": "Change Member Role",
+    "changeRoleFor": "Change the role for",
+    "newRole": "New Role",
+    "confirmRemove": "Are you sure you want to remove this member from the organization?",
+    "confirmRevoke": "Are you sure you want to revoke this invitation?",
+    "pendingInvitations": "Pending Invitations",
+    "invitedBy": "Invited by",
+    "expiresAt": "Expires",
+    "revoke": "Revoke",
+    "roles": {
+      "owner": "Owner",
+      "admin": "Admin",
+      "leader": "Leader",
+      "member": "Member",
+      "viewer": "Viewer"
+    },
+    "roleDescriptions": {
+      "owner": "Full control over the organization. Can manage all settings and members.",
+      "admin": "Can manage members, invitations, and content. Cannot delete the organization.",
+      "leader": "Can create and edit content, assign work to team members.",
+      "member": "Can create and edit content within the organization.",
+      "viewer": "Read-only access to organization content."
+    },
+    "acceptInvitation": {
+      "title": "Accept Invitation",
+      "subtitle": "You've been invited to join an organization on VisionFlow.",
+      "organization": "Organization",
+      "invitedBy": "Invited by",
+      "accept": "Accept & Join",
+      "loginRequired": "Please log in or create an account to accept this invitation."
+    },
+    "assignments": {
+      "title": "Work Assignments",
+      "subtitle": "Assign missions and projects to team members using RACI roles.",
+      "assign": "Assign Work",
+      "assignSubtitle": "Assign a mission or project to a team member.",
+      "assignTo": "Assign to",
+      "selectMember": "Select a team member",
+      "type": "Type",
+      "mission": "Mission",
+      "project": "Project",
+      "item": "Item",
+      "selectItem": "Select an item",
+      "raciRole": "RACI Role",
+      "raci": {
+        "responsible": "Responsible — Does the work",
+        "accountable": "Accountable — Owns the outcome",
+        "consulted": "Consulted — Provides input",
+        "informed": "Informed — Kept in the loop"
+      },
+      "notes": "Notes",
+      "notesPlaceholder": "Optional notes about this assignment...",
+      "dueAt": "Due Date",
+      "by": "by",
+      "assignedTo": "Assigned to",
+      "markComplete": "Complete",
+      "confirmDelete": "Are you sure you want to delete this assignment?",
+      "empty": "No work assignments yet. Assign missions or projects to team members.",
+      "unknownItem": "Unknown item",
+      "statuses": {
+        "active": "Active",
+        "completed": "Completed"
+      }
     }
   },
   "auth": {
